@@ -3,7 +3,6 @@ import { MoonIcon,Bars3Icon, XMarkIcon, SunIcon } from '@heroicons/react/24/outl
 import { FiGithub } from 'react-icons/fi'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FiLinkedin } from 'react-icons/fi'
-import Logo from '../assets/logo.svg'
 
 function Navbar() {
     const [nav, setNav] = useState(false)
@@ -14,8 +13,8 @@ function Navbar() {
 
 
   return (
-    <div className="z-10 bg-slate-500 fixed drop-shadow-lg w-screen h-[90px]">
-        <div className="container mx-auto px-4 flex justify-between items-center w-full h-full">
+    <div className="z-100 bg-slate-500 fixed w-screen h-[90px]">
+        <div className="container bg-white mx-auto px-4 flex justify-between items-center w-full h-full">
             <div className="flex items-center">
                 {/* <img src={Logo} width={25} alt="logo" /> */}
                 <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-pointer">KR.</h1>
@@ -35,7 +34,7 @@ function Navbar() {
                         <SunIcon className="h-6 w-6 text-blue-500 cursor-pointer"/>
                     }
                 </div>
-            <div className="hidden md:flex border border-mycolor px-5 py-2 rounded-lg">
+            <div className="hidden md:flex border border-gray px-5 py-2 rounded-lg">
                 <button className="bg-transparent text-black">Resume</button>
             </div>
             </div>
@@ -48,13 +47,13 @@ function Navbar() {
                 }
             </div>
         </div>
-        <ul className={!nav ? "hidden" : "absolute w-full px-8"}>
+        <ul className={!nav ? "hidden" : "absolute w-full px-8 pb-10 bg-white"}>
             <li className="cursor-pointer w-full p-3">About</li>
             <li className="cursor-pointer w-full p-3">Projects</li>
             <li className="cursor-pointer w-full p-3">Skills</li>
             <li className="cursor-pointer w-full p-3">Contact</li>
             <div className="flex flex-col bg-black my-4 rounded-lg">
-                <button className="text-mycolor py-3">Resume</button>
+                <button className=" text-white py-3">Download Resume</button>
             </div>
             <div className="flex gap-8 place-content-center mt-20 mp-10">
             <MdOutlineEmail className="h-8 w-8 md:hidden cursor-pointer" />
