@@ -13,8 +13,8 @@ function Navbar() {
 
 
   return (
-    <div className="z-100 bg-slate-500 fixed w-screen h-[90px]">
-        <div className="container bg-white mx-auto px-4 flex justify-between items-center w-full h-full">
+    <div className="z-[1000] fixed w-screen h-[90px] bg-white">
+        <div className=" container mx-auto px-4 flex justify-between items-center w-full h-full">
             <div className="flex items-center">
                 {/* <img src={Logo} width={25} alt="logo" /> */}
                 <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-pointer">KR.</h1>
@@ -56,13 +56,14 @@ function Navbar() {
                 <button className=" text-white py-3">Download Resume</button>
             </div>
             <div className="flex gap-8 place-content-center mt-20 mp-10">
-            <MdOutlineEmail className="h-8 w-8 md:hidden cursor-pointer" />
-            <FiGithub className="h-8 w-8 md:hidden cursor-pointer" />
-            <FiLinkedin className="h-8 w-8 md:hidden cursor-pointer" />
+            <MdOutlineEmail className="h-8 w-8 md:hidden cursor-pointer hover:scale-125 duration-700" />
+            <FiGithub className="h-8 w-8 md:hidden cursor-pointer hover:scale-125 duration-700" />
+            <FiLinkedin className="h-8 w-8 md:hidden cursor-pointer hover:scale-125 duration-700" />
             </div>
         </ul>
     </div>
   )
 }
+
 
 export default Navbar

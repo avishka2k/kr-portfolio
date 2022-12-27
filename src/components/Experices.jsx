@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experices() {
   return (
-    <div className="w-full h-screen flex flex-col justify-between">
+    <div className="w-full md:h-screen flex flex-col justify-between">
         <div className="container px-4 m-auto">
             <div className="flex flex-col justify-center w-full py-8">
                 <div className="flex flex-row place-content-center pb-2 items-center">
