@@ -13,7 +13,7 @@ function Hero() {
       <div className="container px-4 m-auto md:hidden">
         <div className="flex flex-col justify-center w-full py-8">
           <div className="flex flex-row place-content-center items-center">
-            <div className="section-header-before mr-3"></div>
+            <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
             <p className="section-header uppercase tracking-[10px] text-gray2">
               My Name is
             </p>
@@ -45,7 +45,7 @@ function Hero() {
       <div className="container px-4 m-auto hidden md:flex">
         <div className="flex flex-col justify-center w-full py-8">
           <div className="flex flex-row items-center">
-            <div className="section-header-before mr-3"></div>
+            <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
             <p className="section-header uppercase text-gray2 tracking-[10px]">
               My Name is
             </p>

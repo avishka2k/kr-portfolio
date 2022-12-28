@@ -12,18 +12,15 @@
     --white: #ffffff;
     --gray2: #656d72;
   }
+
+  html {
+    @apply scroll-smooth;
+    @apply bg-white;
+    @apply text-black;
+    @apply font-sans;
+  }
+
   li {
     @apply md:p-4 lg:p-7;
   }
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  color: var(--black);
-}
-
-.section-header-before {
-  width: 1rem;
-  height: 2px;
-  background-color: var(--gray);
 }

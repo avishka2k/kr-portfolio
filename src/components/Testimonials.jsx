@@ -34,7 +34,7 @@ function Testimonials() {
       <div className="container px-4 m-auto">
         <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
-            <div className="section-header-before mr-3"></div>
+            <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
               my clients
             </p>

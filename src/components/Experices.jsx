@@ -9,7 +9,7 @@ function Experices() {
       <div className="container px-4 m-auto">
         <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
-            <div className="section-header-before mr-3"></div>
+            <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
               career path
             </p>
@@ -26,14 +26,14 @@ function Experices() {
               <div className="flex flex-col mt-2 mr-6">
                 <span class="flex h-4 w-4 overflow-hidden">
                   <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
+                  <span class=" absolute rounded-full w-4 h-4 m-auto bg-gray border-[1px] border-blue"></span>
                   <span class="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
-                  <span class=" absolute rounded-full w-4 h-4 m-auto bg-blueOpa border-[1px] border-blue"></span>
                 </span>
               </div>
               <div className="flex flex-col">
                 <p className="font-medium text-lg md:text-xl mb-3">
-                  Front-end Developer Ap ple .Inc{" "}
-                  <span className=" text-gray2 font-normal md:text-sm text-xs italic">
+                  Front-end Developer Apple .Inc
+                  <span className="text-gray2 font-normal md:text-sm text-xs italic">
                     (current)
                   </span>
                 </p>
@@ -67,7 +67,7 @@ function Experices() {
             <div className="flex flex-row items-start">
               <div className="flex flex-col mt-2 mr-6">
                 <span class="flex h-4 w-4">
-                  <span class="rounded-full w-4 h-4 m-auto bg-gray opacity-60"></span>
+                  <span class="rounded-full w-4 h-4 m-auto bg-gray"></span>
                 </span>
               </div>
               <div className="flex flex-col">
@@ -85,10 +85,10 @@ function Experices() {
             <div className="flex flex-row items-start">
               <div className="flex flex-col mt-2 mr-6">
                 <span class="flex h-4 w-4">
-                  <span class="rounded-full w-4 h-4 m-auto bg-gray opacity-60"></span>
+                  <span class="rounded-full w-4 h-4 m-auto bg-gray"></span>
                 </span>
                 <span class="flex ml-[2px]">
-                  <span class="absolute inline-flex h-[15rem] w-3 rounded-full bg-white"></span>
+                  <span class="absolute inline-flex h-[10rem] w-3 rounded-full bg-white"></span>
                 </span>
               </div>
               <div className="flex flex-col">

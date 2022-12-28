@@ -39,6 +39,9 @@ function Navbar() {
             <a href="#experices">Experices</a>
           </li>
           <li className="cursor-pointer">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="cursor-pointer">
             <a href="#contacts">Contact</a>
           </li>
         </ul>
@@ -65,10 +68,24 @@ function Navbar() {
         </div>
       </div>
       <ul className={!nav ? "hidden" : "absolute w-full px-8 pb-10 bg-white"}>
-        <li className="cursor-pointer w-full p-3">About</li>
-        <li className="cursor-pointer w-full p-3">Projects</li>
-        <li className="cursor-pointer w-full p-3">Skills</li>
-        <li className="cursor-pointer w-full p-3">Contact</li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#about">About</a>
+        </li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#services">Services</a>
+        </li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#experices">Experices</a>
+        </li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#skills">Skills</a>
+        </li>
+        <li className="cursor-pointer w-full p-3">
+          <a href="#contacts">Contact</a>
+        </li>
         <div className="flex flex-col bg-blue my-4 rounded-lg">
           <button className=" text-white py-3">Download Resume</button>
         </div>
