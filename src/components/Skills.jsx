@@ -19,7 +19,7 @@ function Skills() {
             Education & Skills
           </p>
         </div>
-        <div className="flex flex-col justify-around lg:flex-row-reverse lg:max-w-none max-w-[24rem] m-auto">
+        <div className="flex flex-col justify-around lg:flex-row-reverse lg:max-w-none max-w-[20rem] m-auto">
           <div className="flex flex-col max-w-[40rem] sm:max-w-[30rem]">
             <p className="text-center lg:text-left">
               For 5+ years, I have been continuously learning in the field of
