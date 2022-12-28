@@ -4,7 +4,6 @@ import P2 from "../assets/p2.svg";
 import P3 from "../assets/p3.svg";
 import { IoLinkOutline } from "react-icons/io5";
 
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
