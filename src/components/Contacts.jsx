@@ -21,9 +21,12 @@ function Contacts() {
     },
   ];
   return (
-    <div className="w-full flex flex-col justify-between">
+    <div
+      id="contacts"
+      className="w-full flex flex-col pt-20 md:h-screen justify-between"
+    >
       <div className="container px-4 m-auto">
-        <div className="flex flex-col justify-center w-full py-8">
+        <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="section-header-before mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
@@ -34,7 +37,7 @@ function Contacts() {
             Get In Touch
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-evenly gap-10 mt-20">
+        <div className="flex flex-col md:flex-row justify-evenly gap-10">
           <form action="" className="md:max-w-[40rem]">
             <input
               type="text"

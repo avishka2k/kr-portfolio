@@ -27,9 +27,12 @@ function Testimonials() {
   ];
 
   return (
-    <div className="w-full flex flex-col justify-between">
+    <div
+      id="testimonials"
+      className="w-full flex flex-col pt-20 md:h-screen justify-between"
+    >
       <div className="container px-4 m-auto">
-        <div className="flex flex-col justify-center w-full py-8">
+        <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="section-header-before mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
@@ -40,7 +43,7 @@ function Testimonials() {
             Testimonials
           </p>
         </div>
-        <div className="flex flex-col md:flex-row mt-20 gap-9">
+        <div className="flex flex-col md:flex-row gap-9">
           {TestimonialContent.map((TestimonialContent) => (
             <div className="flex flex-col hover:scale-105 duration-700 cursor-pointer text-center md:max-w-[26rem] max-w-[20rem] m-auto">
               <img

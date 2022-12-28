@@ -6,7 +6,10 @@ import { FiLinkedin } from "react-icons/fi";
 
 function Hero() {
   return (
-    <div className="w-full md:h-screen flex flex-col pt-20 justify-between">
+    <div
+      id="about"
+      className="w-full md:h-screen flex flex-col pt-20 justify-between"
+    >
       <div className="container px-4 m-auto md:hidden">
         <div className="flex flex-col justify-center w-full py-8">
           <div className="flex flex-row place-content-center items-center">

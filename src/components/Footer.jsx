@@ -5,13 +5,13 @@ import { FiLinkedin } from "react-icons/fi";
 
 function Footer() {
   return (
-    <div className="pt-[10rem] mb-[5rem] flex flex-col">
+    <div className="pt-[10rem] pb-[5rem] flex flex-col">
       <div className="flex flex-row gap-7 text-2xl md:text-4xl place-content-center">
-        <FiGithub className=" cursor-pointer"/>
-        <MdOutlineEmail className=" cursor-pointer"/>
-        <FiLinkedin className=" cursor-pointer"/>
+        <FiGithub className=" cursor-pointer" />
+        <MdOutlineEmail className=" cursor-pointer" />
+        <FiLinkedin className=" cursor-pointer" />
       </div>
-      <p className=" text-center text-[15px] text-gray2 mt-5">
+      <p className=" text-center text-[15px] text-gray2 pt-5">
         © 2022 - Kalani
       </p>
     </div>

@@ -25,16 +25,19 @@ function Services() {
   ];
 
   return (
-    <div className="w-full md:h-screen flex flex-col justify-between">
+    <div
+      id="services"
+      className="w-full md:h-screen flex flex-col justify-between pt-20"
+    >
       <div className="container px-4 m-auto">
-        <div className="flex flex-col w-full py-8">
+        <div className="flex flex-col w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="section-header-before mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
               Services
             </p>
           </div>
-          <p className="md:text-5xl text-4xl md:pb-20 pb-10 font-semibold text-center">
+          <p className="md:text-5xl text-4xl font-semibold text-center">
             Specialized in
           </p>
         </div>

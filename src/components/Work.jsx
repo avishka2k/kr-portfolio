@@ -36,30 +36,24 @@ function Work() {
       tool: "Flutter",
       link: "",
     },
-    {
-      ImgUrl: P2,
-      title: "Dashboard Website.",
-      tool: "JavaScript",
-      link: "",
-    },
   ];
 
   return (
-    <div className="w-full flex flex-col pt-10">
+    <div id="projects" className="w-full flex flex-col md:h-screen pt-20">
       <div className="container px-4 m-auto">
-        <div className="flex flex-col justify-center w-full py-8">
-          <div className="flex flex-row place-content-center md:place-content-start pb-2 items-center">
+        <div className="flex flex-col justify-center w-full pb-[7rem]">
+          <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="section-header-before mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
               my work
             </p>
           </div>
-          <p className="md:text-5xl text-4xl font-semibold md:pb-[3rem] text-center md:text-left">
+          <p className="md:text-5xl text-4xl font-semibold text-center">
             Featured Projects
           </p>
         </div>
         <div>
-          <div className="flex-col grid md:grid-cols-2 xl:grid-cols-4 gap-10 md:flex-row pt-8 md:justify-between">
+          <div className="flex-col grid md:grid-cols-2 xl:grid-cols-4 gap-10 md:flex-row md:justify-between">
             {ProjectContent.map((ProjectContent) => (
               <div className="shadow hover:shadow-lg hover:scale-105 rounded-xl w-[20rem] m-auto md:w-full duration-700 flex flex-col relative">
                 <img

@@ -2,9 +2,12 @@ import React from "react";
 
 function Experices() {
   return (
-    <div className="w-full h-screen flex flex-col justify-between">
+    <div
+      id="experices"
+      className="w-full flex pt-[6rem] md:h-screen flex-col justify-between"
+    >
       <div className="container px-4 m-auto">
-        <div className="flex flex-col justify-center w-full py-8">
+        <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="section-header-before mr-3"></div>
             <p className="section-header uppercase tracking-[10px] md:text-1xl text-sm my-text-gray">
@@ -15,7 +18,7 @@ function Experices() {
             Work Experices
           </p>
         </div>
-        <div className="flex flex-row items-start pt-10 md:m-auto md:max-w-[40rem]">
+        <div className="flex flex-row items-start md:m-auto md:max-w-[40rem]">
           <div className="flex flex-col item-end mr-8"></div>
           <div className="flex w-full flex-col m-auto place-content-center gap-6 relative">
             <span className="h-full over top-[10px] left-[7px] absolute w-[2px] bg-gray opacity-40"></span>
@@ -28,8 +31,11 @@ function Experices() {
                 </span>
               </div>
               <div className="flex flex-col">
-                <p className="font-medium text-lg md:text-xl">
-                  Front-end Developer Apple .Inc <span className=" text-gray2 font-normal md:text-sm text-xs italic">(current)</span>
+                <p className="font-medium text-lg md:text-xl mb-3">
+                  Front-end Developer Ap ple .Inc{" "}
+                  <span className=" text-gray2 font-normal md:text-sm text-xs italic">
+                    (current)
+                  </span>
                 </p>
                 <p className="text-sm md:text-base text-gray2">
                   California, United States
@@ -65,7 +71,7 @@ function Experices() {
                 </span>
               </div>
               <div className="flex flex-col">
-                <p className="font-medium text-lg md:text-xl">
+                <p className="font-medium text-lg md:text-xl mb-3">
                   Front-end Developer Apple .Inc
                 </p>
                 <p className="text-sm md:text-base text-gray2">
@@ -86,7 +92,7 @@ function Experices() {
                 </span>
               </div>
               <div className="flex flex-col">
-                <p className="font-medium text-lg md:text-xl">
+                <p className="font-medium text-lg md:text-xl mb-3">
                   Front-end Developer Apple .Inc
                 </p>
                 <p className="text-sm md:text-base text-gray2">
