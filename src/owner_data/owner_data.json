@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "owner": {
+      "name": {
+        "first_name": "Your",
+        "last_name": "name"
+      },
+      "email": "example@gmail.com",
+      "mobile": "(501) 414-1541",
+      "address": "3424 Layman Avenue, Fayetteville, NC",
+      "favicon_path": "",
+      "image_path": "/images/user.svg",
+      "about": "Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX",
+      "social_media_url": {
+        "linkedin": "https://www.linkedin.com/",
+        "github": "https://github.com/"
+      }
+    },
+
+    "services": [
+      {
+        "id": 1,
+        "title": "UI/UX Design",
+        "discription": "Turn what you have in mind of a digital product into reality. For any platform you consider."
+      },
+      {
+        "id": 2,
+        "title": "Application Development",
+        "discription": "Standard designing, building, and implementing your applications with documentation."
+      },
+      {
+        "id": 3,
+        "title": "Web Development",
+        "discription": "Create and maintain your websites and also take care of its performance and traffic capacity."
+      }
+    ],
+
+    "projects": [],
+
+    "experiences": [
+      {
+        "id": 1,
+        "job_title": "Front-end Developer",
+        "company": "Apple .Inc",
+        "location": "California, ",
+        "start_date": "Nov 2020",
+        "end_date": "Present",
+        "activity": [
+          {
+            "activity": "Improving overall website performance for mobile users"
+          },
+          {
+            "activity": "Collaborate with back-end developers and web designers to improve usability"
+          },
+          {
+            "activity": "Add voice search feature for mobile app."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "job_title": "Front-end Developer",
+        "company": "Microsoft",
+        "location": "California, United States",
+        "start_date": "Nov 2020",
+        "end_date": "Present",
+        "activity": [
+          {
+            "activity": ""
+          },
+          {
+            "activity": ""
+          },
+          {
+            "activity": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "job_title": "Front-end Developer",
+        "company": "Apple .Inc",
+        "location": "California, United States",
+        "start_date": "Nov 2020",
+        "end_date": "Present",
+        "activity": [
+          {
+            "activity": ""
+          },
+          {
+            "activity": ""
+          },
+          {
+            "activity": ""
+          }
+        ]
+      }
+    ],
+
+    "skill_discription": "For 5+ years, I have been continuously learning in the field of front-end and experimenting with new technologies    and frameworks, and here you can see a summary of my skills.",
+    "my_skills": [
+      {
+        "skill": "javaScript",
+        "percentage": "90%"
+      },
+      {
+        "skill": "React",
+        "percentage": "85%"
+      },
+      {
+        "skill": "java",
+        "percentage": "80%"
+      },
+      {
+        "skill": "python",
+        "percentage": "65%"
+      },
+      {
+        "skill": "flutter",
+        "percentage": "85%"
+      },
+      {
+        "skill": "firebase",
+        "percentage": "70%"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "school": "NSBM Green University",
+        "subject": "Bachelor of Science - BS, Software engineering",
+        "start_date": "jun 2021",
+        "end_date": "Present"
+      },
+      {
+        "id": 2,
+        "school": "NSBM Green University",
+        "subject": "engineering",
+        "start_date": "Aug 2020",
+        "end_date": "Sep 2021"
+      }
+    ],
+    "testimonials": [
+      {
+        "icon": "/images/testimonials/avatar1.svg",
+        "name": "Isabella Bennett",
+        "company": "Microsoft",
+        "massage": "I’m glad I decided to work with you. The project was delivered on time with all the requirements"
+      },
+      {
+        "icon": "/images/testimonials/avatar2.svg",
+        "name": "James Delaney",
+        "company": "Google",
+        "massage": "The management of our projects was always faced with difficulties, but you handled these well"
+      },
+      {
+        "icon": "/images/testimonials/avatar3.svg",
+        "name": "Amelia Miller",
+        "company": "IBM",
+        "massage": "We were very pleased to hear how you resolved our website's user interface issues and challenges"
+      }
+    ]
+  }
+]

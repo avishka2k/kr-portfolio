@@ -24,3 +24,7 @@
     @apply md:p-4 lg:p-7;
   }
 }
+
+.active{
+  color: red;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "icon": "https://picsum.photos/200",
+    "name": "Isabella Bennett",
+    "company": "Microsoft",
+    "massage": "I’m glad I decided to work with you. The project was delivered on time with all the requirements"
+  },
+  {
+    "id": 2,
+    "icon": "https://picsum.photos/200",
+    "name": "James Delaney",
+    "company": "Google",
+    "massage": "The management of our projects was always faced with difficulties, but you handled these well"
+  },
+  {
+    "id": 3,
+    "icon": "https://picsum.photos/200",
+    "name": "Amelia Miller",
+    "company": "IBM",
+    "massage": "We were very pleased to hear how you resolved our website's user interface issues and challenges"
+  }
+]
