@@ -55,9 +55,9 @@ function Skills() {
                               <div className="flex flex-row items-start">
                                 {skill_education.id === 1 ? (
                                   <div className="flex flex-col mt-2 mr-6">
-                                    <span class="flex h-4 w-4 overflow-hidden">
+                                    <span class="flex h-[15px] w-[15px] overflow-hidden">
                                       <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
-                                      <span class=" absolute rounded-full w-4 h-4 m-auto bg-gray border-[1px] border-blue"></span>
+                                      <span class=" absolute rounded-full h-[15px] w-[15px] m-auto bg-gray border-[1px] border-blue"></span>
                                       <span class="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
                                     </span>
                                   </div>
