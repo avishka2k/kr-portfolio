@@ -11,9 +11,9 @@ function Skills() {
             <div
               key={skills_data.id}
               id="skills"
-              className="w-full flex pt-[6rem] md:h-screen flex-col justify-between"
+              className="max-w-[85vw] m-auto flex pt-[6rem] md:h-screen flex-col justify-between"
             >
-              <div className="container px-4 m-auto">
+              <div className="container px-4">
                 <div className="flex flex-col justify-center w-full pb-[7rem]">
                   <div className="flex flex-row place-content-center pb-2 items-center">
                     <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
