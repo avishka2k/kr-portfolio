@@ -9,30 +9,27 @@ function Contacts() {
       {OwnerData.map((owner__data) => {
         const ContactOption = [
           {
-            id:1,
+            id: 1,
             Icon: BsPinMap,
             type: "Address",
             value: owner__data.owner.address,
           },
           {
-            id:1,
+            id: 1,
             Icon: IoCallOutline,
             type: "Phone",
             value: owner__data.owner.mobile,
           },
           {
-            id:1,
+            id: 1,
             Icon: IoMailOutline,
             type: "E-Mail",
             value: owner__data.owner.email,
           },
         ];
         return (
-          <div
-            id="contacts"
-            className="max-w-[85vw] m-auto flex flex-col pt-20 md:h-screen justify-between"
-          >
-            <div className="container px-4 m-auto">
+          <div className="max-w-[85vw] m-auto flex flex-col pt-[2rem] justify-between">
+            <div id="contacts" className="container px-4 m-auto pt-[8rem]">
               <div className="flex flex-col justify-center w-full pb-[7rem]">
                 <div className="flex flex-row place-content-center pb-2 items-center">
                   <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
@@ -71,7 +68,10 @@ function Contacts() {
                 </form>
                 <div className="flex flex-col gap-6 mt-10">
                   {ContactOption.map((ContactOption) => (
-                    <div key={ContactOption.id} className="flex flex-row cursor-pointer hover:scale-105 duration-700 items-center gap-6">
+                    <div
+                      key={ContactOption.id}
+                      className="flex flex-row cursor-pointer hover:scale-105 duration-700 items-center gap-6"
+                    >
                       <div className="bg-blueOpa text-3xl place-content-center rounded-xl text-blue">
                         <ContactOption.Icon className="m-2" />
                       </div>

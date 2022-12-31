@@ -1,5 +1,4 @@
 import React from "react";
-import UserImg from "../assets/user.svg";
 import { FiGithub } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiLinkedin } from "react-icons/fi";
@@ -71,8 +70,8 @@ function Hero() {
                     My Name is
                   </p>
                 </div>
-                <p className="md:text-6xl text-5xl text-center md:text-left font-bold">
-                  Kalani <span className="text-blue">Randika.</span>
+                <p className="md:text-6xl text-5xl text-center md:text-left capitalize font-bold">
+                {owner_data.owner.name.first_name} <span className="text-blue">{owner_data.owner.name.last_name}.</span>
                 </p>
                 <div className="">
                   <p className=" py-10 text-center md:text-left max-w-[40rem] text-base sm:text-2xl">

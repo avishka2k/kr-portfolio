@@ -6,11 +6,8 @@ function Experices() {
     <>
       {ExpericesData.map((ExpericesData) => {
         return (
-          <div
-            id="experices"
-            className="max-w-[85vw] m-auto flex pt-[6rem] md:h-screen flex-col justify-between"
-          >
-            <div className="container px-4 m-auto">
+          <div className="max-w-[85vw] m-auto flex pt-[2rem] flex-col justify-between">
+            <div id="experices" className="container px-4 m-auto pt-[8rem]">
               <div className="flex flex-col justify-center w-full pb-[7rem]">
                 <div className="flex flex-row place-content-center pb-2 items-center">
                   <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
@@ -52,9 +49,8 @@ function Experices() {
                           )}
                         </div>
                         <div className="flex flex-col">
-                          <p className="font-medium text-lg md:text-xl mb-3">
-                            {experience_data.job_title} .{" "}
-                            {experience_data.company}
+                          <p className="font-medium text-lg md:text-xl">
+                            {experience_data.job_title}
                             {experience_data.id === 1 ? (
                               <span className="text-gray2 font-normal md:text-sm text-xs italic">
                                 (current)
@@ -63,18 +59,21 @@ function Experices() {
                               <></>
                             )}
                           </p>
-                          <p className="text-sm md:text-base text-gray2">
-                            {experience_data.location}
+                          <p className="text-sm md:text-base">
+                            {experience_data.company}
                           </p>
                           <p className="text-sm md:text-base text-gray2">
                             {experience_data.start_date} -{" "}
-                            {experience_data.end_date} · Full-time
+                            {experience_data.end_date}
+                          </p>
+                          <p className="text-sm md:text-base text-gray2">
+                            {experience_data.location}
                           </p>
 
-                          <ul className="list-inside ml-3 mt-3 flex gap-1 flex-col">
-                            {experience_data.activity.map(
-                              (experience_data_activity) => {
-                                return (
+                          {experience_data.activity.map(
+                            (experience_data_activity) => {
+                              return experience_data_activity.activity ? (
+                                <ul className="list-inside ml-3 mt-3 flex gap-1 flex-col">
                                   <li className="inline-flex text-md md:p-1 text-gray2">
                                     {experience_data_activity.activity ? (
                                       <div className="h-[2px] w-4 mt-3 bg-gray mr-2"></div>
@@ -84,10 +83,12 @@ function Experices() {
 
                                     <p>{experience_data_activity.activity}</p>
                                   </li>
-                                );
-                              }
-                            )}
-                          </ul>
+                                </ul>
+                              ) : (
+                                <></>
+                              );
+                            }
+                          )}
                         </div>
                       </div>
                     );

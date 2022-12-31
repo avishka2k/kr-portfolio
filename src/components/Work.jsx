@@ -39,8 +39,8 @@ function Work() {
   ];
 
   return (
-    <div id="projects" className="max-w-[85vw] m-auto flex flex-col xl:h-screen">
-      <div className="container px-4 m-auto">
+    <div className="max-w-[85vw] m-auto pt-[2rem] flex flex-col">
+      <div id="projects" className="container px-4 m-auto pt-[8rem]">
         <div className="flex flex-col justify-center w-full pb-[7rem]">
           <div className="flex flex-row place-content-center pb-2 items-center">
             <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>

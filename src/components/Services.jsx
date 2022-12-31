@@ -11,10 +11,9 @@ function Services() {
           return (
             <div
               key={services_data.id}
-              id="services"
-              className="max-w-[85vw] m-auto md:h-screen flex flex-col justify-between"
+              className="max-w-[85vw] m-auto pt-[2rem] flex flex-col justify-between"
             >
-              <div className="container px-4 m-auto">
+              <div id="services" className="container pt-[8rem] px-4 m-auto">
                 <div className="flex flex-col w-full pb-[7rem]">
                   <div className="flex flex-row place-content-center pb-2 items-center">
                     <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>

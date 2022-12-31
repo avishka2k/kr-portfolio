@@ -10,10 +10,12 @@ function Testimonials() {
           return (
             <div
               key={testimonials_data.id}
-              id="testimonials"
-              className="max-w-[85vw] m-auto flex flex-col md:h-screen justify-between"
+              className="max-w-[85vw] m-auto flex flex-col pt-[2rem] justify-between"
             >
-              <div className="container px-4 m-auto">
+              <div
+                id="testimonials"
+                className="container pt-[8rem] px-4 m-auto"
+              >
                 <div className="flex flex-col justify-center w-full pb-[7rem]">
                   <div className="flex flex-row place-content-center pb-2 items-center">
                     <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
@@ -34,7 +36,9 @@ function Testimonials() {
                           className="flex flex-col hover:scale-105 duration-700 cursor-pointer text-center md:max-w-[26rem] w-[26rem] max-w-[20rem] m-auto"
                         >
                           <img
-                            src={process.env.PUBLIC_URL + testimonials_data.icon}
+                            src={
+                              process.env.PUBLIC_URL + testimonials_data.icon
+                            }
                             alt=""
                             className="w-20 rounded-full m-auto mb-5"
                           />
