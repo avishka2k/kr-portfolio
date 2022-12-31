@@ -12,9 +12,9 @@ function Hero() {
         return (
           <div
             id="about"
-            className="w-full md:h-screen flex flex-col pt-20 justify-between"
+            className="max-w-[85vw] m-auto md:h-screen flex flex-col pt-20 justify-between"
           >
-            <div className="container px-4 m-auto md:hidden">
+            <div className="container px-4 md:hidden m-auto">
               <div className="flex flex-col justify-center w-full py-8">
                 <div className="flex flex-row place-content-center items-center">
                   <div className="w-[1rem] h-[2px] bg-gray mr-3"></div>
@@ -75,7 +75,7 @@ function Hero() {
                   Kalani <span className="text-blue">Randika.</span>
                 </p>
                 <div className="">
-                  <p className=" py-10 text-center md:text-left max-w-[820px] text-base sm:text-2xl">
+                  <p className=" py-10 text-center md:text-left max-w-[40rem] text-base sm:text-2xl">
                     {owner_data.owner.about}
                   </p>
                   <div className="flex gap-8 pb-10">
@@ -99,7 +99,7 @@ function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="m-auto md:float-right md:w-full w-96">
+              <div className="m-auto md:float-right md:w-[50rem] w-96">
                 <img
                   src={process.env.PUBLIC_URL + owner_data.owner.image_path}
                   className="float-right hover:scale-105 duration-700"

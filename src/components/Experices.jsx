@@ -8,7 +8,7 @@ function Experices() {
         return (
           <div
             id="experices"
-            className="w-full flex pt-[6rem] md:h-screen flex-col justify-between"
+            className="max-w-[85vw] m-auto flex pt-[6rem] md:h-screen flex-col justify-between"
           >
             <div className="container px-4 m-auto">
               <div className="flex flex-col justify-center w-full pb-[7rem]">

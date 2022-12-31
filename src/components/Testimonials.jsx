@@ -11,7 +11,7 @@ function Testimonials() {
             <div
               key={testimonials_data.id}
               id="testimonials"
-              className="w-full flex flex-col pt-20 md:h-screen justify-between"
+              className="max-w-[85vw] m-auto flex flex-col md:h-screen justify-between"
             >
               <div className="container px-4 m-auto">
                 <div className="flex flex-col justify-center w-full pb-[7rem]">
