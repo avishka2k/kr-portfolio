@@ -37,7 +37,7 @@ function Navbar() {
               <div className="flex items-center">
                 {/* <img src={Logo} width={25} alt="logo" /> */}
                 <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-pointer">
-                  KR.
+                  AP.
                 </h1>
               </div>
               <ul className="hidden md:flex">

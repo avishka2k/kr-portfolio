@@ -32,7 +32,7 @@ function Hero() {
                 <p>
                   <img
                     src={process.env.PUBLIC_URL + owner_data.owner.image_path}
-                    alt="Kalani Randika"
+                    alt="owner"
                     className="hover:scale-105 duration-700"
                   />{" "}
                 </p>
@@ -98,11 +98,11 @@ function Hero() {
                   </div>
                 </div>
               </div>
-              <div className="m-auto md:float-right md:w-[50rem] w-96">
+              <div className="m-auto md:float-right md:w-full w-96">
                 <img
                   src={process.env.PUBLIC_URL + owner_data.owner.image_path}
-                  className="float-right hover:scale-105 duration-700"
-                  alt="Kalani Randika"
+                  className="float-right hover:scale-105 w-[40rem] duration-700"
+                  alt="owner"
                 />
               </div>
             </div>

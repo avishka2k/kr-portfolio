@@ -3,14 +3,14 @@
     "id": 1,
     "owner": {
       "name": {
-        "first_name": "Your",
-        "last_name": "name"
+        "first_name": "Avishka",
+        "last_name": "Prabath"
       },
       "email": "example@gmail.com",
       "mobile": "(501) 414-1541",
       "address": "3424 Layman Avenue, Fayetteville, NC",
       "favicon_path": "",
-      "image_path": "/images/user.svg",
+      "image_path": "/images/himg.svg",
       "about": "Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX",
       "social_media_url": {
         "linkedin": "https://www.linkedin.com/",
