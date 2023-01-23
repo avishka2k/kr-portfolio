@@ -28,7 +28,7 @@ function Contacts() {
           },
         ];
         return (
-          <div className="max-w-[85vw] m-auto flex flex-col pt-[2rem] justify-between">
+          <div className="max-w-[85vw] lg:h-screen m-auto flex flex-col pt-[2rem] justify-between">
             <div id="contacts" className="container px-4 m-auto pt-[8rem]">
               <div className="flex flex-col justify-center w-full pb-[7rem]">
                 <div className="flex flex-row place-content-center pb-2 items-center">

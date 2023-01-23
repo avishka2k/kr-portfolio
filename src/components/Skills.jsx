@@ -10,7 +10,7 @@ function Skills() {
           return (
             <div
               key={skills_data.id}
-              className="max-w-[85vw] m-auto flex pt-[2rem] flex-col justify-between"
+              className="max-w-[85vw] lg:h-screen m-auto flex pt-[2rem] flex-col justify-between"
             >
               <div id="skills" className="container pt-[8rem] px-4 m-auto">
                 <div className="flex flex-col justify-center w-full pb-[7rem]">

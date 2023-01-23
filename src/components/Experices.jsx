@@ -6,7 +6,7 @@ function Experices() {
     <>
       {ExpericesData.map((ExpericesData) => {
         return (
-          <div className="max-w-[85vw] m-auto flex pt-[2rem] flex-col justify-between">
+          <div className="max-w-[85vw] lg:h-screen m-auto flex pt-[2rem] flex-col justify-between">
             <div id="experices" className="container px-4 m-auto pt-[8rem]">
               <div className="flex flex-col justify-center w-full pb-[7rem]">
                 <div className="flex flex-row place-content-center pb-2 items-center">
