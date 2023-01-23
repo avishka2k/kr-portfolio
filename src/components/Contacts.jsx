@@ -15,13 +15,13 @@ function Contacts() {
             value: owner__data.owner.address,
           },
           {
-            id: 1,
+            id: 2,
             Icon: IoCallOutline,
             type: "Phone",
             value: owner__data.owner.mobile,
           },
           {
-            id: 1,
+            id: 3,
             Icon: IoMailOutline,
             type: "E-Mail",
             value: owner__data.owner.email,

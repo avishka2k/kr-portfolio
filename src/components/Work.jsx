@@ -13,24 +13,28 @@ import "swiper/css/scrollbar";
 function Work() {
   const ProjectContent = [
     {
+      id:1,
       ImgUrl: P1,
       title: "Agency Website.",
       tool: "React.js",
       link: "",
     },
     {
+      id:2,
       ImgUrl: P2,
       title: "Dashboard Website.",
       tool: "JavaScript",
       link: "",
     },
     {
+      id:3,
       ImgUrl: P3,
       title: "Support Center Website.",
       tool: "Flutter",
       link: "",
     },
     {
+      id:4,
       ImgUrl: P3,
       title: "Support Center Website.",
       tool: "Flutter",
@@ -55,7 +59,7 @@ function Work() {
         <div>
           <div className="flex-col grid md:grid-cols-2 xl:grid-cols-4 gap-10 md:flex-row md:justify-between">
             {ProjectContent.map((ProjectContent) => (
-              <div className="shadow hover:shadow-lg hover:scale-105 rounded-xl w-[20rem] m-auto md:w-full duration-700 flex flex-col relative">
+              <div key={ProjectContent.id} className="shadow hover:shadow-lg hover:scale-105 rounded-xl w-[20rem] m-auto md:w-full duration-700 flex flex-col relative">
                 <img
                   src={ProjectContent.ImgUrl}
                   alt="p1"

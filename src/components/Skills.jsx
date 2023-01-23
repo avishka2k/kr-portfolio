@@ -32,7 +32,7 @@ function Skills() {
                     <p className="pt-7 text-lg font-[500]">Skills</p>
                     {skills_data.my_skills.map((skills__data) => {
                       return (
-                        <div className="flex-flex-col pt-2">
+                        <div key={skills__data.id} className="flex-flex-col pt-2">
                           <ProgressBar
                             skillName={skills__data.skill}
                             percentage={`${skills__data.percentage}`}
@@ -52,22 +52,22 @@ function Skills() {
                         <>
                           {skills_data.education.map((skill_education) => {
                             return (
-                              <div className="flex flex-row items-start">
+                              <div key={skill_education.id} className="flex flex-row items-start">
                                 {skill_education.id === 1 ? (
                                   <div className="flex flex-col mt-2 mr-6">
-                                    <span class="flex h-[15px] w-[15px] overflow-hidden">
-                                      <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
-                                      <span class=" absolute rounded-full h-[15px] w-[15px] m-auto bg-gray border-[1px] border-blue"></span>
-                                      <span class="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
+                                    <span className="flex h-[15px] w-[15px] overflow-hidden">
+                                      <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
+                                      <span className=" absolute rounded-full h-[15px] w-[15px] m-auto bg-gray border-[1px] border-blue"></span>
+                                      <span className="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
                                     </span>
                                   </div>
                                 ) : (
                                   <div className="flex flex-col mt-2 mr-6">
-                                    <span class="flex h-4 w-4">
-                                      <span class="rounded-full w-4 h-4 m-auto bg-gray"></span>
+                                    <span className="flex h-4 w-4">
+                                      <span className="rounded-full w-4 h-4 m-auto bg-gray"></span>
                                     </span>
-                                    <span class="flex ml-[2px]">
-                                      <span class="absolute inline-flex h-[8rem] w-3 rounded-full bg-white"></span>
+                                    <span className="flex ml-[2px]">
+                                      <span className="absolute inline-flex h-[8rem] w-3 rounded-full bg-white"></span>
                                     </span>
                                   </div>
                                 )}

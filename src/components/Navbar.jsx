@@ -32,7 +32,7 @@ function Navbar() {
     <div>
       {OwnerData.map((owner_data) => {
         return (
-          <div className="z-[1000] fixed w-screen h-[90px] bg-white">
+          <div key={owner_data.id} className="z-[1000] fixed w-screen h-[90px] bg-white">
             <div className=" container m-auto px-4 flex justify-between items-center w-full h-full">
               <div className="flex items-center">
                 {/* <img src={Logo} width={25} alt="logo" /> */}
