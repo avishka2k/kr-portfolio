@@ -1,7 +1,7 @@
 import React from "react";
-import { RiVipCrownLine } from "react-icons/ri";
 import { TbStack, TbWorld } from "react-icons/tb";
 import ServicesData from "../owner_data/owner_data.json";
+import {IoInfiniteSharp} from "react-icons/io5";
 
 function Services() {
   return (
@@ -34,7 +34,7 @@ function Services() {
                       >
                         <div className="service-icon rounded-xl items-center flex md:w-20 md:h-20 w-16 m-auto h-16 bg-blueOpa">
                           {services_data.id === 1 ? (
-                            <RiVipCrownLine
+                            <IoInfiniteSharp
                               className="m-auto text-blue text-5xl md:text-6xl"
                               alt=""
                             />

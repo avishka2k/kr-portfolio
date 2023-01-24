@@ -6,27 +6,27 @@
         "first_name": "Avishka",
         "last_name": "Prabath"
       },
-      "email": "example@gmail.com",
-      "mobile": "(501) 414-1541",
-      "address": "3424 Layman Avenue, Fayetteville, NC",
+      "email": "avishkaprabathg@gmail.com",
+      "mobile": "+94712716098",
+      "address": "Sinhalagoda, Madagalathura, Rathnapura",
       "favicon_path": "",
       "image_path": "/images/himg.svg",
       "about": "Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX",
       "social_media_url": {
-        "linkedin": "https://www.linkedin.com/",
-        "github": "https://github.com/"
+        "linkedin": "https://www.linkedin.com/in/avishkap",
+        "github": "https://github.com/avishka2k"
       }
     },
 
     "services": [
       {
         "id": 1,
-        "title": "UI/UX Design",
+        "title": "DevOps Services",
         "discription": "Turn what you have in mind of a digital product into reality. For any platform you consider."
       },
       {
         "id": 2,
-        "title": "Application Development",
+        "title": "App Development",
         "discription": "Standard designing, building, and implementing your applications with documentation."
       },
       {
@@ -138,16 +138,16 @@
       {
         "id": 1,
         "school": "NSBM Green University",
-        "subject": "Bachelor of Science - BS, Software engineering",
+        "subject": "BSc (Hons) Software Engineering",
         "start_date": "jun 2021",
         "end_date": "Present"
       },
       {
         "id": 2,
-        "school": "NSBM Green University",
-        "subject": "engineering",
-        "start_date": "Aug 2020",
-        "end_date": "Sep 2021"
+        "school": "St.Aloysius' College - Rathnapura",
+        "subject": "Combined Maths",
+        "start_date": "Aug 2017",
+        "end_date": "Aug 2019"
       }
     ],
     "testimonials": [
