@@ -1,7 +1,8 @@
 import React from "react";
-import P1 from "../assets/p1.svg";
-import P2 from "../assets/p2.svg";
-import P3 from "../assets/p3.svg";
+import Project1 from "../assets/web-project.webp"
+import Project2 from "../assets/career-portfolio.webp"
+import Project3 from "../assets/meeting-app.webp"
+import Project4 from "../assets/phonix-airline.webp"
 import { IoLinkOutline } from "react-icons/io5";
 
 // Import Swiper styles
@@ -14,31 +15,31 @@ function Work() {
   const ProjectContent = [
     {
       id:1,
-      ImgUrl: P1,
-      title: "Agency Website.",
-      tool: "React.js",
-      link: "",
+      ImgUrl: Project1,
+      title: "UHealthy Website",
+      tool: "HTML CSS JavaScript PHP",
+      link: "https://github.com/avishka2k/web-project",
     },
     {
       id:2,
-      ImgUrl: P2,
-      title: "Dashboard Website.",
-      tool: "JavaScript",
-      link: "",
+      ImgUrl: Project2,
+      title: "Carrer Protfolio Website",
+      tool: "React.js Node.js",
+      link: "https://github.com/avishka2k/career-portfolio",
     },
     {
       id:3,
-      ImgUrl: P3,
-      title: "Support Center Website.",
-      tool: "Flutter",
-      link: "",
+      ImgUrl: Project3,
+      title: "Meeting Mobile App",
+      tool: "Flutter Firebase",
+      link: "https://github.com/avishka2k/meeting_app",
     },
     {
       id:4,
-      ImgUrl: P3,
-      title: "Support Center Website.",
-      tool: "Flutter",
-      link: "",
+      ImgUrl: Project4,
+      title: "Flight Management System",
+      tool: "Java SQL",
+      link: "https://github.com/avishka2k/flight-management-system",
     },
   ];
 
@@ -63,7 +64,7 @@ function Work() {
                 <img
                   src={ProjectContent.ImgUrl}
                   alt="p1"
-                  className="rounded-xl hover:brightness-100 hover:opacity-100 transition-all duration-700 brightness-90 w-full hover:bg-contain opacity-50"
+                  className="rounded-xl h-[25rem] hover:brightness-100 hover:opacity-100 transition-all duration-700 brightness-90 w-full hover:bg-contain opacity-80"
                 />
                 <div className="flex flex-col absolute  bottom-0 p-4 rounded-b-xl bg-white w-full h-[7rem]">
                   <p className=" text-black font-medium text-lg">

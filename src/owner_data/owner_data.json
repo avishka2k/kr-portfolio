@@ -10,8 +10,8 @@
       "mobile": "+94712716098",
       "address": "Sinhalagoda, Madagalathura, Rathnapura",
       "favicon_path": "",
-      "image_path": "/images/himg.svg",
-      "about": "Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX",
+      "image_path": "/images/Hero-Image-1.webp",
+      "about": "Good Developer and Operator with more than 2+ years of experience in Software Engineering. Proficient in AWS, Terraform, Ansible, Python, Linux, Java, JavaScript, React, Flutter, etc. Passionate about DevOps",
       "social_media_url": {
         "linkedin": "https://www.linkedin.com/in/avishkap",
         "github": "https://github.com/avishka2k"
@@ -27,7 +27,7 @@
       {
         "id": 2,
         "title": "App Development",
-        "discription": "Standard designing, building, and implementing your applications with documentation."
+        "discription": "Standard designing, building, and implementing your Mobile applications."
       },
       {
         "id": 3,
@@ -41,48 +41,10 @@
     "experiences": [
       {
         "id": 1,
-        "job_title": "Front-end Developer",
-        "company": "Apple .Inc",
-        "location": "California, ",
-        "start_date": "Nov 2020",
-        "end_date": "Present",
-        "activity": [
-          {
-            "activity": "Improving overall website performance for mobile users"
-          },
-          {
-            "activity": "Collaborate with back-end developers and web designers to improve usability"
-          },
-          {
-            "activity": "Add voice search feature for mobile app."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "job_title": "Front-end Developer",
-        "company": "Microsoft",
-        "location": "California, United States",
-        "start_date": "Nov 2020",
-        "end_date": "Present",
-        "activity": [
-          {
-            "activity": ""
-          },
-          {
-            "activity": ""
-          },
-          {
-            "activity": ""
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "job_title": "Front-end Developer",
-        "company": "Apple .Inc",
-        "location": "California, United States",
-        "start_date": "Nov 2020",
+        "job_title": "DevOps Engineer",
+        "company": "London Stock Exchange Group",
+        "location": "Sri Lanaka",
+        "start_date": "Feb 2023",
         "end_date": "Present",
         "activity": [
           {
@@ -101,7 +63,7 @@
       }
     ],
 
-    "skill_discription": "For 5+ years, I have been continuously learning in the field of front-end and experimenting with new technologies    and frameworks, and here you can see a summary of my skills.",
+    "skill_discription": "For 2+ years, I have been continuously learning in the field of Software Engineering and experimenting with new technologies and frameworks, and here you can see a summary of my skills.",
     "my_skills": [
       {
         "id":1,
@@ -130,8 +92,18 @@
       },
       {
         "id":6,
-        "skill": "firebase",
+        "skill": "AWS",
+        "percentage": "75%"
+      },
+      {
+        "id":7,
+        "skill": "Terraform",
         "percentage": "70%"
+      },
+      {
+        "id":8,
+        "skill": "Linux",
+        "percentage": "90%"
       }
     ],
     "education": [
