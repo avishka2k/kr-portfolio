@@ -5,12 +5,6 @@ import Project3 from "../assets/meeting-app.webp"
 import Project4 from "../assets/phonix-airline.webp"
 import { IoLinkOutline } from "react-icons/io5";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-
 function Work() {
   const ProjectContent = [
     {
