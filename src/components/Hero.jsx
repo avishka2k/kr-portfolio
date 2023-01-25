@@ -9,7 +9,7 @@ function Hero() {
     <div>
       {OwnerData.map((owner_data) => {
         return (
-          <div
+          <div key={owner_data.id}
             id="about"
             className="max-w-[85vw] m-auto md:h-screen flex flex-col pt-20 justify-between"
           >

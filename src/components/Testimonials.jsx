@@ -10,7 +10,7 @@ function Testimonials() {
           return (
             <div
               key={testimonials_data.id}
-              className="max-w-[85vw] m-auto flex flex-col pt-[2rem] justify-between"
+              className="max-w-[85vw] lg:h-screen m-auto flex flex-col pt-[2rem] justify-between"
             >
               <div
                 id="testimonials"

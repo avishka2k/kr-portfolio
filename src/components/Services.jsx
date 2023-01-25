@@ -11,7 +11,7 @@ function Services() {
           return (
             <div
               key={services_data.id}
-              className="max-w-[85vw] m-auto pt-[2rem] flex flex-col justify-between"
+              className="max-w-[85vw] m-auto pt-[2rem] lg:h-screen flex flex-col justify-between"
             >
               <div id="services" className="container pt-[8rem] px-4 m-auto">
                 <div className="flex flex-col w-full pb-[7rem]">

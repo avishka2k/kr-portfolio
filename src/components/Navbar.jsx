@@ -32,8 +32,8 @@ function Navbar() {
     <div>
       {OwnerData.map((owner_data) => {
         return (
-          <div className="z-[1000] fixed w-screen h-[90px] bg-white">
-            <div className=" container max-w-[85vw] m-auto px-2 flex justify-between items-center w-full h-full">
+          <div key={owner_data.id} className="z-[1000] fixed w-screen h-[90px] bg-white">
+            <div className=" container m-auto px-4 flex justify-between items-center w-full h-full">
               <div className="flex items-center">
                 {/* <img src={Logo} width={25} alt="logo" /> */}
                 <h1 className="text-3xl font-bold mr-4 sm:text-4xl cursor-pointer">

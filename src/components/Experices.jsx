@@ -6,7 +6,7 @@ function Experices() {
     <>
       {ExpericesData.map((ExpericesData) => {
         return (
-          <div className="max-w-[85vw] m-auto flex pt-[2rem] flex-col justify-between">
+          <div key={ExpericesData.id} className="max-w-[85vw] lg:h-screen m-auto flex pt-[2rem] flex-col justify-between">
             <div id="experices" className="container px-4 m-auto pt-[8rem]">
               <div className="flex flex-col justify-center w-full pb-[7rem]">
                 <div className="flex flex-row place-content-center pb-2 items-center">
@@ -25,25 +25,25 @@ function Experices() {
                   <span className="h-full over top-[10px] left-[7px] absolute w-[2px] bg-gray opacity-40"></span>
                   {ExpericesData.experiences.map((experience_data) => {
                     return (
-                      <div className="flex flex-row items-start">
+                      <div key={experience_data.id} className="flex flex-row items-start">
                         <div className="flex flex-col mt-2 mr-6">
                           {experience_data.id === 1 ? (
-                            <span class="flex h-[15px] w-[15px] overflow-hidden">
-                              <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
-                              <span class=" absolute rounded-full h-[15px] w-[15px] m-auto bg-gray border-[1px] border-blue"></span>
-                              <span class="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
+                            <span className="flex h-[15px] w-[15px] overflow-hidden">
+                              <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-blue opacity-50"></span>
+                              <span className=" absolute rounded-full h-[15px] w-[15px] m-auto bg-gray border-[1px] border-blue"></span>
+                              <span className="relative inline-flex rounded-full w-[8px] h-[8px] m-auto bg-blue"></span>
                             </span>
                           ) : experience_data.id === 2 ? (
-                            <span class="flex h-4 w-4">
-                              <span class="rounded-full w-4 h-4 m-auto bg-gray"></span>
+                            <span className="flex h-4 w-4">
+                              <span className="rounded-full w-4 h-4 m-auto bg-gray"></span>
                             </span>
                           ) : (
                             <>
-                              <span class="flex h-4 w-4">
-                                <span class="rounded-full w-4 h-4 m-auto bg-gray"></span>
+                              <span className="flex h-4 w-4">
+                                <span className="rounded-full w-4 h-4 m-auto bg-gray"></span>
                               </span>
-                              <span class="flex ml-[2px]">
-                                <span class="absolute inline-flex h-[10rem] w-3 rounded-full bg-white"></span>
+                              <span className="flex ml-[2px]">
+                                <span className="absolute inline-flex h-[10rem] w-3 rounded-full bg-white"></span>
                               </span>
                             </>
                           )}
