@@ -28,3 +28,21 @@
 .active{
   color: red;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--blue); 
+  border-radius: 10px;
+}
+
+.smooth-scroll-wrapper{
+  @apply w-full fixed z-10 top-0 left-0;
+}
