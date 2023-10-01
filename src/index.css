@@ -42,3 +42,7 @@
   background: var(--blue); 
   border-radius: 10px;
 }
+
+.smooth-scroll-wrapper{
+  @apply w-full fixed z-10 top-0 left-0;
+}
